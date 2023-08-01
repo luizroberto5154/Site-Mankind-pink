@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #ff69b4;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-family: "Glacial Indifference", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 64.5px;
+  color: #fff;
+  letter-spacing: 20px;
+}
+
+header h3 {
+  font-family: "Glacial Indifference", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.featured-products {
+  display: flexbox;
+}
+
+.all-products {
+}
+
+footer {
+  background-color: #ff69b4;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
+
+.product {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product img {
+  display: block;
+  margin: 0 auto;
+}
+
+.product h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #ff69b4;
+}
+
+.product p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(0deg, #FC67A5, #CF7878);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.menu-button {
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 70px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #fff;
+}
+
+.collection-title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.collection-title h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #F4689F;
+  text-shadow: 0 0 10px rgba(244, 102, 159, 0.65);
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #ff69b4;
+  padding-top: 20px;
+  text-align: center;
+  transition: left 0.3s;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #CF7878;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
